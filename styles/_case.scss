@@ -1,0 +1,26 @@
+.case {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0 12px;
+    
+    &__photo {
+    margin: 12px;
+    width: 100%;
+    max-width: calc((100% - 48px)/2);
+    }
+
+    & img {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+    }  
+    
+    &__descripition {
+        margin: 20px auto 0;
+        color: #292630;
+        font-weight: 600;
+    }
+
+}
+

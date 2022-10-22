@@ -1,0 +1,19 @@
+.button {
+    display: block;
+    width: 312px;
+    height: 60px;
+    margin: 20px auto 0;
+    line-height: 60px;
+    border-radius: 30px;
+    border: solid 2px black;
+    font-size: 1.12rem;
+    font-weight: 600;
+    transition: all ease .9s;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease; 
+    -o-transition: 1s ease;
+
+    &:hover {
+        background-color: cornflowerblue;
+    }
+}

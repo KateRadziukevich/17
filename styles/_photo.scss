@@ -1,0 +1,25 @@
+.photo {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between; 
+    padding: 0 12px;
+    
+    &__one {
+    margin: 12px;
+    width: 100%;
+    max-width: calc((100% - 48px)/2);
+    }
+
+    & img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }  
+
+    &__description {
+        max-width: 1000px;
+        font-weight: 550;
+        margin: 20px auto 0;
+    }
+
+}
